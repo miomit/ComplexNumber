@@ -6,10 +6,10 @@ cmake_minimum_required (VERSION 3.8)
 project ("СomplexNumber")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (CMakeTarget Main.cpp  "Complex.cpp")
+add_executable (ComplexNumber Main.cpp  "Complex.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)
+  set_property(TARGET ComplexNumber PROPERTY CXX_STANDARD 20)
 endif()
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
